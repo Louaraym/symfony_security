@@ -12,8 +12,10 @@ class ArticleAdminController extends AbstractController
 {
     /**
      * @Route("/admin/article/new")
+     * @param EntityManagerInterface $em
+     * @return Response
      */
-    public function new(EntityManagerInterface $em)
+    public function new(EntityManagerInterface $em): Response
     {
         die('todo');
 

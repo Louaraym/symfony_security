@@ -157,7 +157,8 @@ class Article
 
     public function incrementHeartCount(): self
     {
-        $this->heartCount = $this->heartCount + 1;
+       // $this->heartCount = $this->heartCount + 1;
+        ++$this->heartCount;
 
         return $this;
     }
@@ -174,7 +175,7 @@ class Article
         return $this;
     }
 
-    public function getImagePath()
+    public function getImagePath(): string
     {
         return 'images/'.$this->getImageFilename();
     }
