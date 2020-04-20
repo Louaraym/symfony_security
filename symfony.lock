@@ -38,9 +38,6 @@
             "ref": "c745b67e4dec2771d4d57a60efd224faf445c929"
         }
     },
-    "doctrine/doctrine-cache-bundle": {
-        "version": "1.3.3"
-    },
     "doctrine/doctrine-fixtures-bundle": {
         "version": "3.0",
         "recipe": {
@@ -143,6 +140,9 @@
     "ocramius/proxy-manager": {
         "version": "2.1.1"
     },
+    "php": {
+        "version": "7.1.3"
+    },
     "php-http/client-common": {
         "version": "1.7.0"
     },
@@ -178,6 +178,15 @@
     },
     "php-http/stopwatch-plugin": {
         "version": "1.1.0"
+    },
+    "phpdocumentor/reflection-common": {
+        "version": "2.0.0"
+    },
+    "phpdocumentor/reflection-docblock": {
+        "version": "4.3.2"
+    },
+    "phpdocumentor/type-resolver": {
+        "version": "1.0.1"
     },
     "psr/cache": {
         "version": "1.0.1"
@@ -253,6 +262,9 @@
     },
     "symfony/dotenv": {
         "version": "v4.0.2"
+    },
+    "symfony/error-handler": {
+        "version": "v4.4.7"
     },
     "symfony/event-dispatcher": {
         "version": "v4.0.2"
@@ -359,6 +371,9 @@
     "symfony/property-access": {
         "version": "v4.3.6"
     },
+    "symfony/property-info": {
+        "version": "v4.3.7"
+    },
     "symfony/routing": {
         "version": "4.0",
         "recipe": {
@@ -391,6 +406,12 @@
     },
     "symfony/security-http": {
         "version": "v4.3.6"
+    },
+    "symfony/serializer": {
+        "version": "v4.3.7"
+    },
+    "symfony/serializer-pack": {
+        "version": "v1.0.2"
     },
     "symfony/service-contracts": {
         "version": "v1.1.7"
@@ -463,6 +484,9 @@
     },
     "twig/twig": {
         "version": "v2.4.4"
+    },
+    "webmozart/assert": {
+        "version": "1.5.0"
     },
     "zendframework/zend-code": {
         "version": "3.3.0"
